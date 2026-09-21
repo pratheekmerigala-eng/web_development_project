@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pratheek Kumar | CSS 59 - News and Blog Layout with Grid</title>
+<link rel="stylesheet" href="assets/style.css">
+<style>
+.news59{display:grid;grid-template-columns:2fr 1fr;gap:15px}.news59 header{grid-column:1/-1;padding:25px;background:#181818;border-radius:12px}.news59 article,.news59 aside{padding:22px;background:#181818;border:1px solid #333;border-radius:12px}@media(max-width:650px){.news59{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<main class="page">
+<header class="topbar"><div class="brand">PRATHEEK / CSS LAB</div><nav class="nav-actions"><a class="btn" href="index.html">All Programs</a><a class="btn" href="../index.html">Home</a></nav></header>
+<section><span class="label">Program 59</span><h1 class="title">News and Blog Layout with Grid</h1><p class="lead">A practical demonstration prepared by Pratheek Kumar.</p></section>
+<section class="demo"><div class="news59"><header><h2>Student Tech Journal</h2></header><article><span class="pill">CSS</span><h3>Why Grid matters</h3><p class="muted">A short article card using a CSS Grid layout.</p></article><aside><h3>Latest</h3><p>Flexbox basics</p><p>Responsive design</p></aside></div></section>
+<footer class="footer">CSS Practical Lab · CSE · Sai University · Program 59/75</footer>
+</main>
+</body>
+</html>

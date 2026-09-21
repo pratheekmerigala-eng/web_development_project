@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pratheek Kumar | CSS 64 - Mobile-first Responsive Page</title>
+<link rel="stylesheet" href="assets/style.css">
+<style>
+.mobile64{display:grid;gap:18px}.mobile64 .cards{grid-template-columns:1fr}@media(min-width:700px){.mobile64{grid-template-columns:1fr 1fr}.mobile64 .cards{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+<main class="page">
+<header class="topbar"><div class="brand">PRATHEEK / CSS LAB</div><nav class="nav-actions"><a class="btn" href="index.html">All Programs</a><a class="btn" href="../index.html">Home</a></nav></header>
+<section><span class="label">Program 64</span><h1 class="title">Mobile-first Responsive Page</h1><p class="lead">A practical demonstration prepared by Pratheek Kumar.</p></section>
+<section class="demo"><div class="mobile64"><h2>Mobile-first layout</h2><p>The base CSS is designed for small screens, then expands at larger breakpoints.</p><div class="cards"><div class="card">Stacked card</div><div class="card">Stacked card</div></div></div></section>
+<footer class="footer">CSS Practical Lab · CSE · Sai University · Program 64/75</footer>
+</main>
+</body>
+</html>

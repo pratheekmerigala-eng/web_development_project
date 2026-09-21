@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pratheek Kumar | CSS 47 - Dashboard Layout with Grid</title>
+<link rel="stylesheet" href="assets/style.css">
+<style>
+.dash47{display:grid;grid-template-columns:180px 1fr;grid-template-rows:auto 1fr auto;gap:10px;min-height:330px}.dash47 header,.dash47 aside,.dash47 main,.dash47 footer{padding:18px;background:#181818;border:1px solid #333;border-radius:10px}.dash47 header,.dash47 footer{grid-column:1/-1}.dash47 .card strong{font-size:1.8rem}
+</style>
+</head>
+<body>
+<main class="page">
+<header class="topbar"><div class="brand">PRATHEEK / CSS LAB</div><nav class="nav-actions"><a class="btn" href="index.html">All Programs</a><a class="btn" href="../index.html">Home</a></nav></header>
+<section><span class="label">Program 47</span><h1 class="title">Dashboard Layout with Grid</h1><p class="lead">A practical demonstration prepared by Pratheek Kumar.</p></section>
+<section class="demo"><div class="dash47"><header>Dashboard</header><aside>Menu</aside><main><div class="cards"><div class="card">Attendance<br><strong>92%</strong></div><div class="card">Assignments<br><strong>8</strong></div><div class="card">Projects<br><strong>4</strong></div></div></main><footer>Updated today</footer></div></section>
+<footer class="footer">CSS Practical Lab · CSE · Sai University · Program 47/75</footer>
+</main>
+</body>
+</html>

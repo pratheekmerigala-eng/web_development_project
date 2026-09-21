@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pratheek Kumar | CSS 61 - CSS Grid Template Areas</title>
+<link rel="stylesheet" href="assets/style.css">
+<style>
+.areas61{display:grid;grid-template-columns:220px 1fr;grid-template-areas:"header header" "sidebar main" "footer footer";gap:10px}.areas61>*{padding:25px;background:#181818;border:1px solid #333;border-radius:10px}.areas61 header{grid-area:header}.areas61 aside{grid-area:sidebar}.areas61 main{grid-area:main}.areas61 footer{grid-area:footer}@media(max-width:600px){.areas61{grid-template-columns:1fr;grid-template-areas:"header" "main" "sidebar" "footer"}}
+</style>
+</head>
+<body>
+<main class="page">
+<header class="topbar"><div class="brand">PRATHEEK / CSS LAB</div><nav class="nav-actions"><a class="btn" href="index.html">All Programs</a><a class="btn" href="../index.html">Home</a></nav></header>
+<section><span class="label">Program 61</span><h1 class="title">CSS Grid Template Areas</h1><p class="lead">A practical demonstration prepared by Pratheek Kumar.</p></section>
+<section class="demo"><div class="areas61"><header>Header</header><aside>Sidebar</aside><main>Main content</main><footer>Footer</footer></div></section>
+<footer class="footer">CSS Practical Lab · CSE · Sai University · Program 61/75</footer>
+</main>
+</body>
+</html>

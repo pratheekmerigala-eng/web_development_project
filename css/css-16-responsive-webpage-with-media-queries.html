@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pratheek Kumar | CSS 16 - Responsive Webpage with Media Queries</title>
+<link rel="stylesheet" href="assets/style.css">
+<style>
+.responsive16{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.responsive16 div{padding:28px;background:#181818;border-radius:12px}@media(max-width:800px){.responsive16{grid-template-columns:repeat(2,1fr)}}@media(max-width:520px){.responsive16{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<main class="page">
+<header class="topbar"><div class="brand">PRATHEEK / CSS LAB</div><nav class="nav-actions"><a class="btn" href="index.html">All Programs</a><a class="btn" href="../index.html">Home</a></nav></header>
+<section><span class="label">Program 16</span><h1 class="title">Responsive Webpage with Media Queries</h1><p class="lead">A practical demonstration prepared by Pratheek Kumar.</p></section>
+<section class="demo"><div class="responsive16"><div>Desktop: 3 columns</div><div>Tablet: 2 columns</div><div>Mobile: 1 column</div></div></section>
+<footer class="footer">CSS Practical Lab · CSE · Sai University · Program 16/75</footer>
+</main>
+</body>
+</html>
